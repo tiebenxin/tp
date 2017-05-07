@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_start"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFF">
+
+        <TextView
+            style="@style/add_hosting_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="11dp"
+            android:layout_weight="1"
+            android:text="@string/profile_arrive_date" />
+
+
+        <TextView
+            android:id="@+id/tv_start"
+            style="@style/add_hosting_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_sure" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#F1F1F1" />
+
+    <LinearLayout
+        android:id="@+id/ll_end"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_gravity="center"
+        android:background="#FFFFFF">
+
+        <TextView
+            style="@style/add_hosting_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="11dp"
+            android:layout_weight="1"
+            android:text="@string/departure_request_time_data" />
+
+
+        <TextView
+            android:id="@+id/tv_end"
+            style="@style/add_hosting_right"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/no_sure" />
+    </LinearLayout>
+
+</LinearLayout>

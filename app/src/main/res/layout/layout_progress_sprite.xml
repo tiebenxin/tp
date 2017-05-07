@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/pnlProgress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/skin_back_white_transparency"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/login_travel"
+            android:layout_width="@dimen/dimen_65"
+            android:layout_height="@dimen/dimen_65"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <com.example.haoyuban111.mubanapplication.ui.view.ControlSpriteAnimator
+                android:id="@+id/view"
+                android:layout_width="@dimen/dimen_65"
+                android:layout_height="@dimen/dimen_65"
+                android:background="@drawable/login_travel"
+                android:gravity="center" />
+
+            <com.example.haoyuban111.mubanapplication.ui.view.ControlSpriteAnimator
+                android:id="@+id/progress"
+                android:layout_width="@dimen/dimen_65"
+                android:layout_height="@dimen/dimen_65"
+                android:layout_alignEnd="@+id/view"
+                android:layout_alignRight="@+id/view"
+                android:layout_alignTop="@+id/view"
+                android:background="@drawable/login" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

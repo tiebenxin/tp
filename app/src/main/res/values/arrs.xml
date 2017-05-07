@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--圆角imageview-->
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <!--圆角imageview-->
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+
+    <declare-styleable name="HorizontalListView">
+        <attr name="divider" />
+        <attr name="dividerWeight" />
+    </declare-styleable>
+
+    <attr name="divider" format="reference" />
+    <attr name="dividerWeight" format="dimension"/>
+
+    <declare-styleable name="ControlTextView">
+        <attr name="fontType" format="string" />
+    </declare-styleable>
+
+</resources>
